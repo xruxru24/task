@@ -1,0 +1,26 @@
+.cl1 {
+  color: red;
+}
+
+.cl2 {
+  background-color: darkgrey;
+
+.cl3 {
+  background-color: green;
+  color: darkgreen;
+}
+
+.cl4 {
+   background-color: grey;
+   color: darkgrey;
+}
+
+.cl5 {
+  color: orange;
+  background-color: lightyellow;
+}
+
+.cl6 {
+  color: darkred;
+  background-color: red;
+}

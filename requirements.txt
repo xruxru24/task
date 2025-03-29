@@ -1,0 +1,10 @@
+SQLAlchemy~=1.4.64
+Flask-Login~=0.6.3
+Werkzeug~=2.2.3
+Flask~=3.1.0
+Flask-RESTful~=0.3.10
+WTForms~=3.2.1
+alembic~=1.15.1
+requests~=2.32.3
+sqlalchemy-serializer~=1.4.22
+Flask-WTF~=1.2.2
