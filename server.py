@@ -36,10 +36,14 @@ def reqister():
                                    form=form,
                                    message="Такой пользователь уже есть")
         user = User(
+            email=form.email.data,
+            password=form.password.data,
             name=form.name.data,
-            surmame=form.name.data,
-            age=form.name.data,
-            position=form.email.data
+            surname=form.surname.data,
+            age=form.age.data,
+            position=form.position.data,
+            speciality=form.speciality.data,
+            address=form.address.data,
         )
         user.set_password(form.password.data)
         db_sess.add(user)
